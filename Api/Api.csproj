@@ -8,6 +8,7 @@
 
   <ItemGroup>
 	   <!--to authenticate user using jwt bearer--> 
+    <PackageReference Include="Mailjet.Api" Version="3.0.0" /> 
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
 	  <!--to be able to drive from IdentityDbContext inside our context.cs-->
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
